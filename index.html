@@ -1,410 +1,29 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <!doctype html>
 
         
-    <style type="text/css">
-		p{
-			margin:10px 0;
-			padding:0;
-		}
-		table{
-			border-collapse:collapse;
-		}
-		h1,h2,h3,h4,h5,h6{
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		img,a img{
-			border:0;
-			height:auto;
-			outline:none;
-			text-decoration:none;
-		}
-		body,#bodyTable,#bodyCell{
-			height:100%;
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		.mcnPreviewText{
-			display:none !important;
-		}
-		#outlook a{
-			padding:0;
-		}
-		img{
-			-ms-interpolation-mode:bicubic;
-		}
-		table{
-			mso-table-lspace:0pt;
-			mso-table-rspace:0pt;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		p,a,li,td,blockquote{
-			mso-line-height-rule:exactly;
-		}
-		a[href^=tel],a[href^=sms]{
-			color:inherit;
-			cursor:default;
-			text-decoration:none;
-		}
-		p,a,li,td,body,table,blockquote{
-			-ms-text-size-adjust:100%;
-			-webkit-text-size-adjust:100%;
-		}
-		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
-			line-height:100%;
-		}
-		a[x-apple-data-detectors]{
-			color:inherit !important;
-			text-decoration:none !important;
-			font-size:inherit !important;
-			font-family:inherit !important;
-			font-weight:inherit !important;
-			line-height:inherit !important;
-		}
-		.templateContainer{
-			max-width:600px !important;
-		}
-		a.mcnButton{
-			display:block;
-		}
-		.mcnImage,.mcnRetinaImage{
-			vertical-align:bottom;
-		}
-		.mcnTextContent{
-			word-break:break-word;
-		}
-		.mcnTextContent img{
-			height:auto !important;
-		}
-		.mcnDividerBlock{
-			table-layout:fixed !important;
-		}
-		h1{
-			color:#222222;
-			font-family:Helvetica;
-			font-size:40px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:150%;
-			letter-spacing:normal;
-			text-align:center;
-		}
-		h2{
-			color:#222222;
-			font-family:Helvetica;
-			font-size:34px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:150%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		h3{
-			color:#444444;
-			font-family:Helvetica;
-			font-size:22px;
-			font-style:normal;
-			font-weight:bold;
-			line-height:150%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		h4{
-			color:#949494;
-			font-family:Georgia;
-			font-size:20px;
-			font-style:italic;
-			font-weight:normal;
-			line-height:125%;
-			letter-spacing:normal;
-			text-align:left;
-		}
-		#templateHeader{
-			background-color:#F7F7F7;
-			background-image:url("https://ibb.co/Jy4vLLV");
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:64px;
-			padding-bottom:64px;
-		}
-		.headerContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			color:#757575;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
-			color:#007C89;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateBody{
-			background-color:#FFFFFF;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:27px;
-			padding-bottom:54px;
-		}
-		.bodyContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-			color:#757575;
-			font-family:Helvetica;
-			font-size:16px;
-			line-height:150%;
-			text-align:left;
-		}
-		.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{
-			color:#007C89;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-		#templateFooter{
-			background-color:#333333;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:45px;
-			padding-bottom:63px;
-		}
-		.footerContainer{
-			background-color:transparent;
-			background-image:none;
-			background-repeat:no-repeat;
-			background-position:center;
-			background-size:cover;
-			border-top:0;
-			border-bottom:0;
-			padding-top:0;
-			padding-bottom:0;
-		}
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-			color:#FFFFFF;
-			font-family:Helvetica;
-			font-size:12px;
-			line-height:150%;
-			text-align:center;
-		}
-		.footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
-			color:#FFFFFF;
-			font-weight:normal;
-			text-decoration:underline;
-		}
-	@media only screen and (min-width:768px){
-		.templateContainer{
-			width:600px !important;
-		}
+  
 
-}	@media only screen and (max-width: 480px){
-		body,table,td,p,a,li,blockquote{
-			-webkit-text-size-adjust:none !important;
-		}
 
-}	@media only screen and (max-width: 480px){
-		body{
-			width:100% !important;
-			min-width:100% !important;
-		}
 
-}	@media only screen and (max-width: 480px){
-		.mcnRetinaImage{
-			max-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImage{
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
-			max-width:100% !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer{
-			min-width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupContent{
-			padding:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
-			padding-top:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
-			padding-top:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardBottomImageContent{
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockInner{
-			padding-top:0 !important;
-			padding-bottom:0 !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageGroupBlockOuter{
-			padding-top:9px !important;
-			padding-bottom:9px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnTextContent,.mcnBoxedTextContentColumn{
-			padding-right:18px !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
-			padding-right:18px !important;
-			padding-bottom:0 !important;
-			padding-left:18px !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcpreview-image-uploader{
-			display:none !important;
-			width:100% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h1{
-			font-size:30px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h2{
-			font-size:26px !important;
-			line-height:125% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h3{
-			font-size:20px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		h4{
-			font-size:18px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			font-size:14px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-			font-size:16px !important;
-			line-height:150% !important;
-		}
-
-}	@media only screen and (max-width: 480px){
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-			font-size:14px !important;
-			line-height:150% !important;
-		}
-
-}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet"><!--<![endif]-->                 <link rel="stylesheet" href="https://us4.campaign-archive.com/css/archivebar-desktop.css" mc:nocompile>  </head> <body id="archivebody"> <div id="awesomewrap"> <div id="awesomeshare"> <div id="zclipwrap"> <div class="copy-container"> <label for="clipboardSource"></label> <span id="copyURL"> <input id="clipboardSource" name="shorturl" style="margin-top:6px;" type="text" value="https://ibb.co/Jy4vLLV" class="av-text"> <a id="copyToClipboard" href="javascript:;">Copy</a> </span> </div>  </div> <ul id="awesomesocial"> <li class="twt"> <div> <a title="Share on Twitter" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fmailchi.mp%2F169b7644ee63%2Fdb2-November-technical-newsletter" rel="noopener noreferrer">Twitter <b>0 <i>tweets</i></b></a> </div>  </li> </ul> </div> <ul id="awesomebar"> <li> <a href="http://eepurl.com/gYpgRz" title="Subscribe to List" target="_blank" rel="noopener noreferrer"></a> </li>  <li><a href="https://us4.campaign-archive.com/home/?u=bfea5c2578ba2202159762f26&amp;id=05db032aa0" title="View Past Issues" target="_blank" rel="noopener noreferrer"></a></li> <li class="float-r"><a  target="_blank" &amp;id=05db032aa0" title="subscribe to the email archive feed" rel="noopener noreferrer"></a></li> <li class="float-r more"><a href="javascript:;" data-to-toggle="#translate"></a> <ul id="translate"> <li> <a rel="nofollow" title="English" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|en&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">English</a> </li><li> <a rel="nofollow" title="Ã˜Â§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â©" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ar&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã˜Â§Ã™â€žÃ˜Â¹Ã˜Â±Ã˜Â¨Ã™Å Ã˜Â©</a> </li><li> <a rel="nofollow" title="Afrikaans" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|af&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Afrikaans</a> </li><li> <a rel="nofollow" title="ÃÂ±ÃÂµÃÂ»ÃÂ°Ã‘â‚¬Ã‘Æ’Ã‘ÂÃÂºÃÂ°Ã‘Â ÃÂ¼ÃÂ¾ÃÂ²ÃÂ°" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|be&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">ÃÂ±ÃÂµÃÂ»ÃÂ°Ã‘â‚¬Ã‘Æ’Ã‘ÂÃÂºÃÂ°Ã‘Â ÃÂ¼ÃÂ¾ÃÂ²ÃÂ°</a> </li><li> <a rel="nofollow" title="ÃÂ±Ã‘Å ÃÂ»ÃÂ³ÃÂ°Ã‘â‚¬Ã‘ÂÃÂºÃÂ¸" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|bg&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">ÃÂ±Ã‘Å ÃÂ»ÃÂ³ÃÂ°Ã‘â‚¬Ã‘ÂÃÂºÃÂ¸</a> </li><li> <a rel="nofollow" title="catalÃƒ " href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ca&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">catalÃƒ </a> </li><li> <a rel="nofollow" title="Ã¤Â¸Â­Ã¦â€“â€¡Ã¯Â¼Ë†Ã§Â®â‚¬Ã¤Â½â€œÃ¯Â¼â€°" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-CN&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã¤Â¸Â­Ã¦â€“â€¡Ã¯Â¼Ë†Ã§Â®â‚¬Ã¤Â½â€œÃ¯Â¼â€°</a> </li><li> <a rel="nofollow" title="Ã¤Â¸Â­Ã¦â€“â€¡Ã¯Â¼Ë†Ã§Â¹ÂÃ©Â«â€Ã¯Â¼â€°" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-TW&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã¤Â¸Â­Ã¦â€“â€¡Ã¯Â¼Ë†Ã§Â¹ÂÃ©Â«â€Ã¯Â¼â€°</a> </li><li> <a rel="nofollow" title="Hrvatski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hr&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Hrvatski</a> </li><li> <a rel="nofollow" title="Ã„Å’esky" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|cs&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã„Å’esky</a> </li><li> <a rel="nofollow" title="Dansk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|da&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Dansk</a> </li><li> <a rel="nofollow" title="eesti&amp;nbsp;keel" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|et&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">eesti&nbsp;keel</a> </li><li> <a rel="nofollow" title="Nederlands" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|nl&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Nederlands</a> </li><li> <a rel="nofollow" title="Suomi" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fi&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Suomi</a> </li><li> <a rel="nofollow" title="Fran&amp;ccedil;ais" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fr&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Fran&ccedil;ais</a> </li><li> <a rel="nofollow" title="Deutsch" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|de&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Deutsch</a> </li><li> <a rel="nofollow" title="&amp;Epsilon;&amp;lambda;&amp;lambda;&amp;eta;&amp;nu;&amp;iota;&amp;kappa;ÃŽÂ®" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|el&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ÃŽÂ®</a> </li><li> <a rel="nofollow" title="Ã Â¤Â¹Ã Â¤Â¿Ã Â¤Â¨Ã Â¥ÂÃ Â¤Â¦Ã Â¥â‚¬" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hi&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã Â¤Â¹Ã Â¤Â¿Ã Â¤Â¨Ã Â¥ÂÃ Â¤Â¦Ã Â¥â‚¬</a> </li><li> <a rel="nofollow" title="Magyar" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hu&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Magyar</a> </li><li> <a rel="nofollow" title="Gaeilge" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ga&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Gaeilge</a> </li><li> <a rel="nofollow" title="Indonesia" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|id&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Indonesia</a> </li><li> <a rel="nofollow" title="ÃƒÂ­slenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|is&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">ÃƒÂ­slenska</a> </li><li> <a rel="nofollow" title="Italiano" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|it&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Italiano</a> </li><li> <a rel="nofollow" title="Ã¦â€”Â¥Ã¦Å“Â¬Ã¨ÂªÅ¾" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ja&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã¦â€”Â¥Ã¦Å“Â¬Ã¨ÂªÅ¾</a> </li><li> <a rel="nofollow" title="Ã¡Å¾â€”Ã¡Å¾Â¶Ã¡Å¾Å¸Ã¡Å¾Â¶Ã¡Å¾ÂÃ¡Å¸â€™Ã¡Å¾ËœÃ¡Å¸â€šÃ¡Å¾Å¡" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|km&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã¡Å¾â€”Ã¡Å¾Â¶Ã¡Å¾Å¸Ã¡Å¾Â¶Ã¡Å¾ÂÃ¡Å¸â€™Ã¡Å¾ËœÃ¡Å¸â€šÃ¡Å¾Å¡</a> </li><li> <a rel="nofollow" title="Ã­â€¢Å“ÃªÂµÂ­Ã¬â€“Â´" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ko&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã­â€¢Å“ÃªÂµÂ­Ã¬â€“Â´</a> </li><li> <a rel="nofollow" title="ÃÂ¼ÃÂ°ÃÂºÃÂµÃÂ´ÃÂ¾ÃÂ½Ã‘ÂÃÂºÃÂ¸&amp;nbsp;Ã‘ËœÃÂ°ÃÂ·ÃÂ¸ÃÂº" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mk&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">ÃÂ¼ÃÂ°ÃÂºÃÂµÃÂ´ÃÂ¾ÃÂ½Ã‘ÂÃÂºÃÂ¸&nbsp;Ã‘ËœÃÂ°ÃÂ·ÃÂ¸ÃÂº</a> </li><li> <a rel="nofollow" title="Ã˜Â¨Ã™â€¡Ã˜Â§Ã˜Â³ Ã™â€¦Ã™â€žÃ˜Â§Ã™Å Ã™Ë†" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ms&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã˜Â¨Ã™â€¡Ã˜Â§Ã˜Â³ Ã™â€¦Ã™â€žÃ˜Â§Ã™Å Ã™Ë†</a> </li><li> <a rel="nofollow" title="Malti" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mt&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Malti</a> </li><li> <a rel="nofollow" title="Norsk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|no&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Norsk</a> </li><li> <a rel="nofollow" title="Polski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pl&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Polski</a> </li><li> <a rel="nofollow" title="Portugu&amp;ecirc;s" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Portugu&ecirc;s</a> </li><li> <a rel="nofollow" title="Portugu&amp;ecirc;s&amp;nbsp;-&amp;nbsp;Portugal" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt-PT&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Portugu&ecirc;s&nbsp;-&nbsp;Portugal</a> </li><li> <a rel="nofollow" title="Rom&amp;acirc;nÃ„Æ’" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ro&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Rom&acirc;nÃ„Æ’</a> </li><li> <a rel="nofollow" title="Ã Ã‘Æ’Ã‘ÂÃ‘ÂÃÂºÃÂ¸ÃÂ¹" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ru&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã Ã‘Æ’Ã‘ÂÃ‘ÂÃÂºÃÂ¸ÃÂ¹</a> </li><li> <a rel="nofollow" title="Espa&amp;ntilde;ol" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|es&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Espa&ntilde;ol</a> </li><li> <a rel="nofollow" title="Kiswahili" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sw&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Kiswahili</a> </li><li> <a rel="nofollow" title="Svenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sv&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Svenska</a> </li><li> <a rel="nofollow" title="Ã—Â¢Ã—â€˜Ã—Â¨Ã—â„¢Ã—Âª" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|iw&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã—Â¢Ã—â€˜Ã—Â¨Ã—â„¢Ã—Âª</a> </li><li> <a rel="nofollow" title="LietuviÃ…Â³" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lt&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">LietuviÃ…Â³</a> </li><li> <a rel="nofollow" title="latvieÃ…Â¡u" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lv&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">latvieÃ…Â¡u</a> </li><li> <a rel="nofollow" title="slovenÃ„Âina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sk&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">slovenÃ„Âina</a> </li><li> <a rel="nofollow" title="slovenÃ…Â¡Ã„Âina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sl&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">slovenÃ…Â¡Ã„Âina</a> </li><li> <a rel="nofollow" title="Ã‘ÂÃ‘â‚¬ÃÂ¿Ã‘ÂÃÂºÃÂ¸" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sr&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã‘ÂÃ‘â‚¬ÃÂ¿Ã‘ÂÃÂºÃÂ¸</a> </li><li> <a rel="nofollow" title="Ã Â®Â¤Ã Â®Â®Ã Â®Â¿Ã Â®Â´Ã Â¯Â" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ta&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã Â®Â¤Ã Â®Â®Ã Â®Â¿Ã Â®Â´Ã Â¯Â</a> </li><li> <a rel="nofollow" title="Ã Â¸ Ã Â¸Â²Ã Â¸Â©Ã Â¸Â²Ã Â¹â€žÃ Â¸â€”Ã Â¸Â¢" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|th&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã Â¸ Ã Â¸Â²Ã Â¸Â©Ã Â¸Â²Ã Â¹â€žÃ Â¸â€”Ã Â¸Â¢</a> </li><li> <a rel="nofollow" title="TÃƒÂ¼rkÃƒÂ§e" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tr&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">TÃƒÂ¼rkÃƒÂ§e</a> </li><li> <a rel="nofollow" title="Filipino" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tl&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Filipino</a> </li><li> <a rel="nofollow" title="Ã‘Æ’ÃÂºÃ‘â‚¬ÃÂ°Ã‘â€”ÃŒÂÃÂ½Ã‘ÂÃ‘Å’ÃÂºÃÂ°" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|uk&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">Ã‘Æ’ÃÂºÃ‘â‚¬ÃÂ°Ã‘â€”ÃŒÂÃÂ½Ã‘ÂÃ‘Å’ÃÂºÃÂ°</a> </li><li> <a rel="nofollow" title="TiÃ¡ÂºÂ¿ng&amp;nbsp;ViÃ¡Â»â€¡t" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|vi&amp;u=https%3A%2F%2Fus4.campaign-archive.com%2F%3Fu%3Dbfea5c2578ba2202159762f26%26id%3D5825a389bb">TiÃ¡ÂºÂ¿ng&nbsp;ViÃ¡Â»â€¡t</a> </li> </ul> </li> </ul> </div>
-        <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><div itemscope itemtype="http://schema.org/EmailMessage"><div itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="IBM"><link itemprop="url" content="https://www.ibm.com/in-en/products/db2-database/developers"></div><div itemprop="about" itemscope itemtype="http://schema.org/Offer"><link itemprop="image" href="https://ibb.co/Jy4vLLV"></div></div>
-        <!---->
-        <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Upcoming Db2 Technical webinars and news</span><!--<![endif]-->
-        <!---->
+      
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;">
-                <tr>
-                    <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;">
-                        <!-- BEGIN TEMPLATE // -->
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+                  <table border="0" cellpadding="0" cellspacing="0" width=“100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                             <tr>
-                                <td align="center" valign="top" id="templateHeader" data-template-container="" style="background:#F7F7F7 url(&quot;https://ibb.co/Jy4vLLV&quot;) no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #F7F7F7;background-image: url(https://mcusercontent.com/bfea5c2578ba2202159762f26/images/8311e75e-136b-4b26-8a83-9eaeea4331ba.png);background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 64px;padding-bottom: 64px;">
+                                <td align="center" valign="top" id="templateHeader" data-template-container="" style="background:#F7F7F7 url(&quot;https://ibb.co/Jy4vLLV&quot;) no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #F7F7F7;background-image: url(https://aithority.com/wp-content/uploads/2019/03/UK-Startup-Karantis360-Taps-IBM-Cloud-for-AI-Powered-Assisted-Living-Solution.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 64px;padding-bottom: 64px;">
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
                                     <tr>
                                     <td align="center" valign="top" width="600" style="width:600px;">
                                     <![endif]-->
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-                                        <tr>
-                                            <td valign="top" class="headerContainer" style="background:transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;"><table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
-   
-                                        </tr>
-                                    </table>
-                                    <!--[if (gte mso 9)|(IE)]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
+
+
                                 </td>
                             </tr>
-                            <tr>
-                                <td align="center" valign="top" id="templateBody" data-template-container="" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 27px;padding-bottom: 54px;">
-                                    <!--[if (gte mso 9)|(IE)]>
-                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                                    <tr>
-                                    <td align="center" valign="top" width="600" style="width:600px;">
-                                    <![endif]-->
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
-                                        <tr>
+                          
                                             <td valign="top" class="bodyContainer" style="background:transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;"><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
     <tbody class="mcnTextBlockOuter">
         <tr>
@@ -421,9 +40,8 @@
                     <tbody><tr>
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
-                        
                             <h1 style="display: block;margin: 0;padding: 0;color: #222222;font-family: Helvetica;font-size: 30px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;">Db2 India Technical Newsletter<br>
-<span style="font-size:24px"><span style="font-family:times new roman,times,baskerville,georgia,serif">November 2020</span></span></h1>
+<span style="font-size:24px"><span style="font-family:times new roman,times,baskerville,georgia,serif">Issue 1 | November 2020</span></span></h1>
 
                         </td>
                     </tr>
@@ -456,7 +74,7 @@
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">First newsletter for IBM DB2LUW  India Customers.</span></span></span></h3>
+                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Latest Db2 News</span></span></span></h3>
 
                         </td>
                     </tr>
@@ -489,40 +107,40 @@
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <div style="text-align: justify;"><span style="font-size:14px;font-weight: bold;"> <span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Announcement - IBM Db2 Version 11.5 Modification Pack 4 ('Nebula') is Now Available!
+                            <div style="text-align: justify;"><span style="font-size:18px;font-weight: bold;"> <span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Announcement - IBM Db2 Version 11.5 Modification Pack 4 ('Nebula') is Now Available!
 </span></span></span><br>
 <span style="color:#000000"><span style="font-size:16px"><span style="font-family:times new roman,times,baskerville,georgia,serif">
-<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:14px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Mod Pack Summary of Changes:  - <a href="https://ibm.co/2NHllxv" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://ibm.co/2NHllxv</a></span></span></span></h3>
+<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:16px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Mod Pack Summary of Changes:  - <a href="https://ibm.co/2NHllxv" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://ibm.co/2NHllxv</a></span></span></span></h3>
 
-<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:14px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Download Page:  - <a href="https://www.ibm.com/support/pages/node/6241724" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/6241724</a></span></span></span></h3>
+<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:16px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Download Page:  - <a href="https://www.ibm.com/support/pages/node/6241724" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/6241724</a></span></span></span></h3>
 
-<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:14px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Full APAR Fix List:  - <a href="https://www.ibm.com/support/pages/node/1102545" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/1102545</a></span></span></span></h3>
+<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:16px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Full APAR Fix List:  - <a href="https://www.ibm.com/support/pages/node/1102545" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/1102545</a></span></span></span></h3>
 
-<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:14px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Client Drivers Download Page:  - <a href="https://www.ibm.com/support/pages/node/323035" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/323035</a></span></span></span></h3>
+<h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 12px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:16px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 11.5.4.0 Client Drivers Download Page:  - <a href="https://www.ibm.com/support/pages/node/323035" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">https://www.ibm.com/support/pages/node/323035</a></span></span></span></h3>
 
    <ul>
-    <li> <span style="font-size:14px">Db2 REST API </li>
-     <li> <span style="font-size:14px">Automatic INDOUBT Resolution for DPF </li>
-    <li> <span style="font-size:14px">Adaptive workload management for WORKLOAD=ANALYTICS </li>
-    <li><span style="font-size:14px">CPU Controls </li>
-    <li><span style="font-size:14px">Columnar Page based VARCHAR compression </li>
-    <li><span style="font-size:14px">Query Performance (early aggregation; early distinct; full outer join; join residual predicate support; NULL=NULL) </li>
-    <li><span style="font-size:14px">Memory Stability (COMPACT VARCHAR; Full Outer Join) </li>
-    <li><span style="font-size:14px">Advanced Log Space Management </li>
-    <li><span style="font-size:14px">Ability to block operations which put table in reorg-pending state</li>
-    <li><span style="font-size:14px">Optimizer Version Control </li>
-    <li><span style="font-size:14px">Enhance Support for Unicode Data in a Non-Unicode Database  </li>
-    <li><span style="font-size:14px">Faster Database Activation </li>
-    <li><span style="font-size:14px">Queries can skip locked data </li>
-    <li><span style="font-size:14px">SSO with JWT Token </li>
-    <li><span style="font-size:14px">Authentication Caching </li>
-    <li><span style="font-size:14px">Security-Enhanced (SE) Linux support on RHEL 7 & 8 </li>
-    <li><span style="font-size:14px">Enhancement to improve compression for numeric data stored in string data types in columnar tables </li>
-    <li><span style="font-size:14px">Federation: Parallelism ; Numerous JDBC connectors </li>
-    <li><span style="font-size:14px">Tech Previews:  Graph Database;, ML Optimizer; Automated HADR with Pacemaker</li>
-    <li><span style="font-size:14px">Containerized Deployments: Db2U RedHat OpenShift standalone for both Db2, Db2 Wh </li>
-    <li><span style="font-size:14px">Db2 Community standalone docker container on DockerHub (non-production) </li>
-   <li> <span style="font-size:14px">And much more: https://ibm.co/2NHllxv </li>
+    <li> <span style="font-size:16px">Db2 REST API </li>
+     <li> <span style="font-size:16px">Automatic INDOUBT Resolution for DPF </li>
+    <li> <span style="font-size:16px">Adaptive workload management for WORKLOAD=ANALYTICS </li>
+    <li><span style="font-size:16px">CPU Controls </li>
+    <li><span style="font-size:16px">Columnar Page based VARCHAR compression </li>
+    <li><span style="font-size:16px">Query Performance (early aggregation; early distinct; full outer join; join residual predicate support; NULL=NULL) </li>
+    <li><span style="font-size:16px">Memory Stability (COMPACT VARCHAR; Full Outer Join) </li>
+    <li><span style="font-size:16px">Advanced Log Space Management </li>
+    <li><span style="font-size:16px">Ability to block operations which put table in reorg-pending state</li>
+    <li><span style="font-size:16px">Optimizer Version Control </li>
+    <li><span style="font-size:16px">Enhance Support for Unicode Data in a Non-Unicode Database  </li>
+    <li><span style="font-size:16px">Faster Database Activation </li>
+    <li><span style="font-size:16px">Queries can skip locked data </li>
+    <li><span style="font-size:16px">SSO with JWT Token </li>
+    <li><span style="font-size:16px">Authentication Caching </li>
+    <li><span style="font-size:16px">Security-Enhanced (SE) Linux support on RHEL 7 & 8 </li>
+    <li><span style="font-size:16px">Enhancement to improve compression for numeric data stored in string data types in columnar tables </li>
+    <li><span style="font-size:16px">Federation: Parallelism ; Numerous JDBC connectors </li>
+    <li><span style="font-size:16px">Tech Previews:  Graph Database;, ML Optimizer; Automated HADR with Pacemaker</li>
+    <li><span style="font-size:16px">Containerized Deployments: Db2U RedHat OpenShift standalone for both Db2, Db2 Wh </li>
+    <li><span style="font-size:16px">Db2 Community standalone docker container on DockerHub (non-production) </li>
+   <li> <span style="font-size:16px">And much more: https://ibm.co/2NHllxv </li>
 </ul>
 <p></p>
 <hr>
@@ -543,7 +161,7 @@
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Webinar series</span></span></span></h3>
+                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">Db2 Education Sessions</span></span></span></h3>
 
 </table><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
     <tbody class="mcnTextBlockOuter">
@@ -570,6 +188,10 @@ In consideration of the current situation around the COVID-19 pandemic,the safet
 &nbsp;</div>
 
 <p></p>
+
+
+
+
 <hr>
 
 </table><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
@@ -589,7 +211,7 @@ In consideration of the current situation around the COVID-19 pandemic,the safet
                         
                         <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">DB2 Tips and Techniques (Focus on HADR)</span></span></span></h3>
+                            <h3 class="null" style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;"><span style="font-size:20px"><span style="font-family:times new roman,times,baskerville,georgia,serif"><span style="color:#000000">DB2 Tips and Techniques (Topic of the month : HADR)</span></span></span></h3>
 
 </table><table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
     <tbody class="mcnTextBlockOuter">
@@ -647,9 +269,7 @@ In Version 11.5, when the DB2_HADR_ROS_AVOID_REPLAY_ONLY_WINDOW registry variabl
 <li> </a><a href="http://bit.ly/sig_YouTube">IBM Youtube Channel</a> </li>
 </ul>
 
-          
-
-</table><table class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%" cellspacing="0" cellpadding="0" border="0">
+  </table><table class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%" cellspacing="0" cellpadding="0" border="0">
     <tbody class="mcnDividerBlockOuter">
         <tr>
             <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -678,4 +298,5 @@ In Version 11.5, when the DB2_HADR_ROS_AVOID_REPLAY_ONLY_WINDOW registry variabl
 			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
-	
+	        
+
